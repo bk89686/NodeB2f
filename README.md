@@ -64,6 +64,10 @@ function getPvtKey(){
 	//your own function to get the private key that corresponds to the public key that
 	//you uploaded to https://secure.blue2factor.com
 }
+
+
+when a user signs out call:
+	return b2f.getSignout(companyId, res);
 ```
 
 

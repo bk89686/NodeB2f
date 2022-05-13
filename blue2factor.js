@@ -57,8 +57,8 @@ function getIssuer(companyId) {
     return secureUrl + "/SAML2/SSO/" + companyId + "/EntityId";
 }
 
-function getSignout(companyId){
-    return secureUrl + "/SAML2/SSO/" + companyId + "/Signout";
+function getSignout(companyId, response){
+    return response.redirect(secureUrl + "/SAML2/SSO/" + companyId + "/Signout");
 }
 
 async function authenticateRequestExpress(request, companyId, loginUrl, privateKeyStr) {

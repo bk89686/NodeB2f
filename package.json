@@ -1,0 +1,31 @@
+{
+  "name": "blue2factor",
+  "version": "1.0.1",
+  "description": "For Node.js webservers that use Blue2Factor",
+  "main": "blue2factor.js",
+  "scripts": {
+    "test": "test()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bk89686/NodeB2f.git"
+  },
+  "keywords": [
+    "Blue2Factor",
+    "B2F",
+    "2FA",
+    "MFA"
+  ],
+  "author": "Christopher McLain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bk89686/NodeB2f/issues"
+  },
+  "homepage": "https://www.blue2factor.com",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "url": "^0.11.0"
+  }
+}

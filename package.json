@@ -1,6 +1,6 @@
 {
   "name": "blue2factor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "For Node.js webservers that use Blue2Factor",
   "main": "blue2factor.js",
   "scripts": {
